@@ -1,0 +1,122 @@
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.first {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom ,#FF3E9D, #0E1F40);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    position: absolute;
+    color: transparent;
+    font-size: 15rem;
+    top: 13rem;
+    left: 26rem;
+    -webkit-text-stroke: 5px #FF3E9D;
+    /* -webkit-box-relfect: below 20px white; */
+}
+
+.first__triangle {
+    border-right: 15rem solid transparent;
+    border-left: 15rem solid transparent;
+    border-bottom: 30rem solid black;
+    
+}
+
+h2 {
+    color: transparent;
+    font-size: 15rem;
+    -webkit-text-stroke: 5px #FF3E9D;
+    /* -webkit-box-relfect: below 20px white; */
+}
+
+.first__circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 30rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.second {
+    height: 100vh;
+    width: 100vw;
+    background: #0E1F40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second__neon {
+    display: flex;
+
+}
+
+a {
+    position: relative;
+    padding: 5rem 15rem;
+    margin:0 15px;
+    color: white;  
+    text-decoration: none;
+    text-transform: uppercase;  
+    letter-spacing: 2px;
+    font-size: 3rem;
+    transition: 0.5s;
+    overflow: hidden;
+    -webkit-box-reflect: below 50px -webkit-linear-gradient(transparent, #0003);
+    
+}
+
+a:hover {
+    background: #FF3E9D;
+    color: #111;
+    box-shadow: 0 0 450px #FF3E9D;
+    transition-delay: 0.5s;
+}
+
+a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 5px solid #FF3E9D;
+    border-left: 5px solid #FF3E9D;
+    transition: 0.5s;
+}
+
+a:hover:before {
+    width: 100%;
+    height: 100%;
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 5px solid #FF3E9D;
+    border-right: 5px solid #FF3E9D;
+    transition: 0.5s;
+}
+
+a:hover:after {
+    width: 100%;
+    height: 100%;
+}
