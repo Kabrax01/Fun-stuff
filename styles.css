@@ -62,7 +62,6 @@ h2 {
 
 .second__neon {
     display: flex;
-
 }
 
 a {
@@ -70,10 +69,10 @@ a {
     padding: 5rem 15rem;
     margin:0 15px;
     color: white;  
-    text-decoration: none;
-    text-transform: uppercase;  
+    text-decoration: none;  
     letter-spacing: 2px;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 600;
     transition: 0.5s;
     overflow: hidden;
     -webkit-box-reflect: below 50px -webkit-linear-gradient(transparent, #0003);
@@ -82,7 +81,7 @@ a {
 
 a:hover {
     background: #FF3E9D;
-    color: #111;
+    color: #0E1F40;
     box-shadow: 0 0 450px #FF3E9D;
     transition-delay: 0.5s;
 }
