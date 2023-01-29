@@ -24,7 +24,7 @@ h1 {
     top: 13rem;
     left: 26rem;
     -webkit-text-stroke: 5px #FF3E9D;
-    /* -webkit-box-relfect: below 20px white; */
+    -webkit-box-reflect: below 1px -webkit-linear-gradient(transparent, #0003)
 }
 
 .first__triangle {
@@ -38,7 +38,7 @@ h2 {
     color: transparent;
     font-size: 15rem;
     -webkit-text-stroke: 5px #FF3E9D;
-    /* -webkit-box-relfect: below 20px white; */
+    -webkit-box-reflect: below 70px -webkit-linear-gradient(transparent, #0003);
 }
 
 .first__circle {
